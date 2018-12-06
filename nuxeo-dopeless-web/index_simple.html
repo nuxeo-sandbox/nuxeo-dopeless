@@ -2,8 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="dopelessRotate/scripts/dopelessRotate.js"></script>
+
+    <link rel="stylesheet" href="dopelessRotate/css/style.css" type="text/css" media="screen"/>
+
   </head>
   <body>
+    <div class="’dopelessrotate’">
+
+      <img id='rotateimage' src='images/01/0001.jpg' width='450' height='324'>
+
+    </div>
+    <script>
+
+      $(document).ready(function () {
+
+        $('#rotateimage').tsRotate({});
+
+      });
+    </script>
     <noscript>
       Please enable JavaScript to view this website.
     </noscript>
